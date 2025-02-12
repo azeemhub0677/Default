@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Raj saree Collection</title>
+
+    <style>
+      .navbar {
+        width: 100%;
+        height: 150px;
+        background-color: rgb(213, 221, 217);
+        overflow: auto;
+      }
+
+      .top-nav {
+        width: 100%;
+        height: 40px;
+        /* background-color: black; */
+      }
+
+      .top-nav-ul {
+        display: flex;
+        margin: auto;
+        right: 30px;
+        position: absolute;
+      }
+
+      .top-nav-ul li {
+        margin: 10px 20px 0px 20px;
+        list-style: none;
+      }
+
+      .fa-solid,
+      .fa-regular {
+        color: black;
+      }
+
+      .bottom-nav {
+        width: 100%;
+        height: 110px;
+        background-color: rgb(213, 221, 217);
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        top: 0px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        transition: top 0.3s ease-in-out;
+      }
+
+      .bottom-nav:hover {
+        cursor: pointer;
+      }
+
+      .bottom-nav ul {
+        display: flex;
+        align-items: center;
+      }
+
+      .bottom-nav ul li {
+        text-decoration: none;
+        list-style: none;
+        margin: 0px 20px 0px 20px;
+      }
+
+      .bottom-nav ul li a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .bottom-nav-left a img {
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- <div class="navbar">
+        <div class="uppernav">
+          <div class="uppernav-left">
+            <a href="#">
+              <img src="Assets/raaj.png" alt="raj saree" srcset="" />
+            </a>
+          </div>
+          <div class="uppernav-right">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#"><i class="fa-regular fa-star"></i></a>
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+          </div>
+        </div>
+        <div class="lowernav">
+          <a href="#">HOME</a>
+          <a href="#">COLLECTION</a>
+          <a href="#">SWATCH COLLECTION</a>
+          <a href="#">SIZING</a>
+          <a href="#">OUR BLOUSES</a>
+        </div>
+      </div> -->
+      <nav class="navbar">
+        <div class="top-nav">
+          <ul class="top-nav-ul">
+            <li>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-star"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-user"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-nav">
+          <div class="bottom-nav-left">
+            <a href="#">
+              <img src="Assets/raaj.png" alt="raj saree" srcset="" />
+            </a>
+          </div>
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">COLLECTION</a></li>
+            <li><a href="#">SWATCH COLLECTION</a></li>
+            <li><a href="#">SIZING</a></li>
+            <li><a href="#">OUR BLOUSES</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="first">
+        <div class="firstleft">
+          <img src="Assets/saree.jpg" alt="saree" srcset="" />
+        </div>
+        <div class="firstright">
+          <p>
+            Welcome to the ultimate <br />
+            Destination for All Your <br />
+            Saree Blouse Needs
+            <br />
+            <a href="">SHOP THE LOOK</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="tagline">
+        <p>No pain, all the gain!</p>
+      </div>
+
+      <div class="card">
+        <div class="rajcard">
+          <img src="Assets/card1.png" alt="sewing" />
+          <h6>No Need of Tailors</h6>
+          <p>Solving all your blouse problems onece and</p>
+          <p style="padding: 0.5em 0 0 2.5em">
+            for all without any tips to the talior!
+          </p>
+        </div>
+        <div class="rajcard">
+          <img src="Assets/card2.png" alt="clock" />
+          <h6 style="padding-left: 4.5em">Perfect Fittings</h6>
+          <p style="padding-left: 2.1em">No wasting time or money on</p>
+          <p style="padding: 0.5em 0 0 4em">disappointing fittings.</p>
+        </div>
+        <div class="rajcard">
+          <img src="Assets/card3.png" alt="delivered" />
+          <h6>Delivered At Doorsteps</h6>
+          <p>Stay in your pajamas & get your blouses</p>
+          <p style="padding: 0.5em 0 0 3em">delivered to your doorsteps!</p>
+        </div>
+      </div>
+
+      <div class="sec">
+        <div class="secleft">
+          <img src="Assets/card4.jpg" alt="saree" srcset="" />
+          <img src="Assets/card5.jpg" alt="saree" srcset="" />
+        </div>
+
+        <div class="secright">
+          <h2>Whatever you fancy!</h2>
+          <p>Classy or Sassy? &nbsp; Plain or Print?</p>
+          <p style="padding: 0.5em 0 0 3em">Contrast or Match?</p>
+          <br /><br />
+          <p style="padding-left: 1em">Any Style Extensive Sizes.</p>
+          <p style="padding: 0.5em 0 0 3em">Ready to wear!</p>
+          <br /><br />
+          <a href="#">SHOP OUR COLLECTION</a>
+        </div>
+      </div>
+
+      <div class="third">
+        <div class="thirdleft">
+          <img src="Assets/card6.png" alt="color" />
+        </div>
+        <div class="thirdright">
+          <h2>No more guessing</h2>
+          <br />
+          <p>
+            Getting a perfect color match & fit
+            <br />
+            in minutes has never been easier!
+          </p>
+          <p style="font-size: 15px; margin: 1em 0 0 8.5em">
+            Order our ultimate fabeic swatch books that cover shade you'll
+            <br />
+            ever need to get a perfect matchy with your saree!
+          </p>
+          <br /><br />
+          <a href="#">ORDER FOR FREE NOW</a>
+        </div>
+      </div>
+
+      <div class="review-h1">
+        <h1>Here's the good word...</h1>
+        <p style="margin: 1em 0 2em -2.5em">
+          Try our saree blouses today & see why our customers love them!
+        </p>
+      </div>
+
+      <div class="review">
+        <i class="fa-solid fa-circle-arrow-left"></i>
+
+        <div class="reviewcard1">
+          <img src="Assets/rvcard1.jpg" alt="porfile" />
+          <div class="rv-content">
+            <h3>Libero magna</h3>
+            <p>
+              "Lorem ipsum dolor sit amet consectetur
+              <br />
+              jhdas hsda ghsdv ghadsyu
+            </p>
+            <h3>Samiksha,Florida</h3>
+          </div>
+        </div>
+
+        <div class="reviewcard1">
+          <img src="Assets/rvcard2.jpg" alt="porfile" />
+          <div class="rv-content">
+            <h3>Alex jimmy</h3>
+            <p>
+              "Lorem ipsum dolor sit amet consectetur
+              <br />
+              jhdas hsda ghsdv ghadsyu
+            </p>
+            <h3>Maxico,USA</h3>
+          </div>
+        </div>
+        <i class="fa-solid fa-circle-arrow-right"></i>
+      </div>
+      <div class="slide-animation">
+        <i class="fa-regular fa-circle blank"></i>
+        <i class="fa-solid fa-circle full"></i>
+        <i class="fa-solid fa-circle full"></i>
+        <i class="fa-solid fa-circle full"></i>
+      </div>
+    </div>
+
+    <script>
+      // window.addEventListener("scroll", function () {
+      //   var header = document.querySelector("bottom-nav");
+      //   if (window.scrollY > 50) {
+      //     header.style.background = "white";
+      //     header.style.boxShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)";
+      //   } else {
+      //     header.style.background = "rgba(255, 255, 255, 0.9)";
+      //     header.style.boxShadow = "none";
+      //   }
+      // });
+
+      window.addEventListener("scroll", function () {
+        var bottomNav = document.querySelector(".bottom-nav");
+        var topNav = document.querySelector(".top-nav");
+
+        if (window.scrollY > topNav.offsetHeight) {
+          bottomNav.style.top = "0px"; // Stick to the top
+          bottomNav.style.transition = "top 0.1s ease-in-out";
+        } else {
+          bottomNav.style.top = "40px"; // Hide again when scrolling up
+        }
+      });
+    </script>
+  </body>
+</html>
